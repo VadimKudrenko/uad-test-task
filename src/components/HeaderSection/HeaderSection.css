@@ -1,0 +1,135 @@
+.header-section {
+  min-height: 772px;
+  background-image: url('../../img/HeaderSection/Banner.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;  
+  position: relative;
+  
+  .container {
+    height: 100%;
+  }
+}
+
+.header__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* .header-section {
+  height: 100%;
+  
+} */
+
+.header__title-counter-wrapper {
+  position: absolute;
+  top: 0;
+}
+
+.header__title {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffff;
+}
+
+.header__subtitle {
+  max-width: 655px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffff;
+}
+
+.header__counter-title {
+  font-weight: 500;
+  margin: 0;
+}
+
+.header__counter-subtitle {
+  font-weight: 400;
+}
+
+.header__redirect-btn-wrapper {
+  padding-top: 24px;
+}
+
+
+.header__bar--sm {
+  display: none;
+  padding-left: 20px;
+}
+
+.header__bar-title {
+  margin: 0;
+}
+
+.header__bar-title--red {
+  color: rgba(153, 51, 51, 1)
+}
+
+.header__bar-redirect-btn-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #45B61D;
+}
+
+.header__bar--sm {
+  display: none;
+}
+
+.header__registration-form-wrapper {
+  display: block;
+}
+
+
+@media (max-width: 999px) {
+  .header-section {
+  text-align: left;  
+  min-height: 523px;
+  }
+
+  .header__title {
+    font-size: 30px;
+  }
+
+  .header__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .header__bar--sm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background-color: #fff;
+  }
+
+  .header__registration-form-wrapper {
+    display: none;
+  }
+
+  .header__title-counter-wrapper {
+    position: unset;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .header__redirect-btn-wrapper {
+    text-align: center;
+  }
+
+ 
+}

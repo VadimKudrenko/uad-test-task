@@ -1,0 +1,78 @@
+.start-dating-vch {
+  background-image: url('../../img/StartDatingWithVCHSection/section-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 60px 0;
+}
+
+.start-dating-vch__image {
+  width: 100%;
+  height: 540px;
+  background-image: url('../../img/StartDatingWithVCHSection/start-dating-img.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.start-dating-vch__title-wrapper {
+  padding: 60px 0 30px 0;
+  background: linear-gradient(#000, transparent);
+}
+
+.start-dating-vch__title {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+}
+
+.start-dating-vch__subtitle {
+  display: block;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+@media (max-width: 1440px) {
+  .start-dating-vch {
+    padding: 0 0 40px 0;
+  }
+
+  .start-dating-vch__title-wrapper {
+    padding: 40px 0 30px 0;
+  }
+
+  .start-dating-vch__title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 999px) {
+  .start-dating-vch__subtitle {
+    display: none;
+  }
+
+  .start-dating-vch__title {
+    color: #000;
+    font-size: 32px;
+  } 
+
+  .start-dating-vch {
+    background-image: none;
+  } 
+
+  .start-dating-vch__title-wrapper {
+    background: unset;
+  }
+
+  .start-dating-vch__image {
+    width: 100%;
+    height: 516px;
+    background-image: url('../../img/StartDatingWithVCHSection/start-dating-mobile-img.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+

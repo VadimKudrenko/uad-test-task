@@ -1,0 +1,72 @@
+.redirect-btn-wrapper{
+  width: 100%;
+}
+
+.redirect-btn {
+  padding: 20px 25px;
+  background-color: #45B61D;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .2s;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.redirect-btn--large {
+  padding: 20px 65px;
+  background-color: #45B61D;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .2s;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.redirect-btn--white {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000
+}
+
+.redirect-btn--header-bar {
+  padding: 0 16px;
+  background-color: #45B61D;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .2s;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.redirect-btn:hover, .redirect-btn--large:hover {
+  cursor: pointer;
+  background-color: #228600;
+}
+
+.redirect-btn--white:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+
+}
+
+.redirect-btn--sm-w100{
+  width: unset;
+}
+
+@media (max-width: 999px) {
+
+  .redirect-btn--sm-w100{
+    width: 100%;
+  }
+  
+}
